@@ -20,5 +20,6 @@
 //console.log(str.trim()); 
 
 
-let str = 'MOHIT';
-console.log(str.slice(0,3));
+//let str = 'MOHIT';
+//console.log(str.slice(0,3));
+
