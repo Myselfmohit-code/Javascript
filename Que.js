@@ -35,7 +35,7 @@ if (marks >= 90) {
     console.log("Grade D");
 }*/
 
-export function getTicketPrice(age, isWeekend) {
+/*export function getTicketPrice(age, isWeekend) {
 
     if (typeof age !== 'number' || age < 0) {
         throw new Error('Invalid age');
@@ -71,5 +71,79 @@ export function getTicketPrice(age, isWeekend) {
 
     return price;
 }
+*/
 
+// the driving simulation program
 
+//export function driveSimulation(speed, signal) {
+
+/*let signal = "green";
+
+    if (signal === "red") {
+        console.log("Stop the car ");
+    }else if (signal === "yellow") {
+        console.log("Slow down the car");
+    }else if (signal === "green") {
+        console.log("Go");
+    }else if (signal ==="Flashing") {
+        console.log("Warning: Traffic signal is flashing");
+    }else{
+        console.log("Invalid traffic signal color");
+    }
+*/
+
+/*let signal = "GREEN";
+
+if (typeof signal !== "string") {
+    console.log("Invalid input: Signal must be a string");
+} else {
+    switch (signal.toLowerCase()) {
+        case "red":
+            console.log("Stop the car");
+            break;
+
+        case "yellow":
+            console.log("Slow down the car");
+            break;
+
+        case "green":
+            console.log("Go");
+            break;
+
+        case "flashing":
+            console.log("Warning: Traffic signal is flashing");
+            break;
+
+        default:
+            console.log("Invalid traffic signal color");
+    }
+}*/
+
+let marks = 89;
+let hasExtraCredit = true;
+
+if (marks < 0 || marks > 100) {
+    console.log("Invalid marks");
+} else {
+
+    if (hasExtraCredit) {
+        marks = marks + 5;
+
+        // Maximum marks = 100
+        if (marks > 100) {
+            marks = 100;
+        }
+    }
+
+    if (marks >= 90) {
+        console.log("Grade A");
+    } else if (marks >= 80) {
+        console.log("Grade B");
+    } else if (marks >= 70) {
+        console.log("Grade C");
+    } else if (marks >= 60) {
+        console.log("Grade D");
+    } else {
+        console.log("Grade F");
+    }
+}
