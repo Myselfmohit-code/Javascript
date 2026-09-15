@@ -45,7 +45,7 @@ export function getTicketPrice(age, isWeekend) {
         throw new Error('Invalid isWeekend value');
     }
 
-    let price;
+    let age = 54;
 
     if (age < 13) {
         price = 8;
