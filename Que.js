@@ -150,7 +150,7 @@ if (marks < 0 || marks > 100) {
 
 //Service rating - Tip Percentage 
 
-function calculateTip(billAmount, serviceRating) {
+/*function calculateTip(billAmount, serviceRating) {
     let tipPercentage;
 
    if (billAmount <=0){
@@ -173,7 +173,7 @@ function calculateTip(billAmount, serviceRating) {
     }
 
     let tipAmount = billAmount * (tipPercentage / 100);
-    tipAmount = Number(tipAmount.toFixed(2));
+    tipAmount = Number(tipAmount.math.round(2));
     let totalAmount = billAmount + tipAmount;
 
     return {
@@ -182,4 +182,21 @@ function calculateTip(billAmount, serviceRating) {
         tipPercentage: tipPercentage
     }
 
+} */
+
+
+
+function calculateParking(hours,vehicleType) {
+    if (hours <= 0) {
+        return -1;
+    }
+    if(vehicleType !== "car" && vehicleType !== "motorcycle" && vehicleType !== "bus") {
+        return -1;
+        
+    }
 }
+
+    
+
+    
+    
