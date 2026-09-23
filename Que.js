@@ -119,7 +119,7 @@ if (typeof signal !== "string") {
     }
 }*/
 
-let marks = 89;
+/*let marks = 89;
 let hasExtraCredit = true;
 
 if (marks < 0 || marks > 100) {
@@ -146,4 +146,4 @@ if (marks < 0 || marks > 100) {
     } else {
         console.log("Grade F");
     }
-}
+}*/
