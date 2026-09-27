@@ -4,7 +4,7 @@
   //  block of code to be executed if the condition is false
 }*/ 
 
-/*let age = 18;
+/*let age = 18; 
 
 if (age >= 18) {
     console.log("You are eligible to vote");
