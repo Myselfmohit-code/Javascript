@@ -1,7 +1,7 @@
 //let marks = [54,58,56,85,87,60];
 //console.log(typeof marks);
 
-//console.log(marks[1]);
+//console.log(marks[1]); 
 //console.log(marks[5]);
 //console.log(marks[7]);
 
