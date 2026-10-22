@@ -8,6 +8,6 @@ form.addEventListener("submit", (e) => {
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const age = document.getElementById("age").value.trim();
-
+ 
     console.log(name, age, email);
 })
