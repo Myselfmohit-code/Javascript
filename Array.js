@@ -6,7 +6,7 @@
 //console.log(marks[7]);
 
 //marks[2] = 66;
-//console.log(marks[2]); Give output 66 change array element  
+//console.log(marks[2]); Give output 66 change array element   
 
 
 //loops 
