@@ -7,7 +7,7 @@ myFunction(); */
 
 // myFunction(msg){  //parameter
    // console.log(msg);
-//myFunction("Hello, World!"); //argument
+//myFunction("Hello, World!"); //argument 
 
 
 /*function sum(a, b) {
